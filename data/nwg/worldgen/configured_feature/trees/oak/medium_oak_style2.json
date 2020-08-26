@@ -1,0 +1,59 @@
+{
+    "config": {
+        "max_water_depth": 0,
+        "ignore_vines": false,
+        "heightmap": "OCEAN_FLOOR",
+        "minimum_size": {
+            "limit": 1,
+            "lower_size": 1,
+            "upper_size": 2,
+            "type": "minecraft:two_layers_feature_size"
+        },
+        "trunk_provider": {
+            "state": {
+                "Properties": {
+                    "axis": "y"
+                },
+                "Name": "minecraft:oak_log"
+            },
+            "type": "simple_state_provider"
+        },
+        "leaves_provider": {
+            "state": {
+                "Properties": {
+                    "persistent": "true",
+                    "distance": "7"
+                },
+                "Name": "minecraft:jungle_leaves"
+            },
+            "type": "simple_state_provider"
+        },
+        "trunk_placer": {
+            "base_height": 4,
+            "height_rand_a": 1,
+            "height_rand_b": 2,
+            "type": "minecraft:straight_trunk_placer"
+        },
+        "foliage_placer": {
+            "radius": {
+                "base": 2,
+                "spread": 0
+            },
+            "offset": {
+                "base": 0,
+                "spread": 3
+            },
+            "trunk_height": {
+                "base": 6,
+                "spread": 1
+            },
+            "type": "minecraft:spruce_foliage_placer"
+        },
+        "decorators": [
+            {
+               "type": "leave_vine"
+            }
+        ]
+    },
+    "type": "minecraft:tree"
+}

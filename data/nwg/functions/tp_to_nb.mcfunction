@@ -1,0 +1,1 @@
+execute in nwg:nb_dim run tp @s ~ 80 ~

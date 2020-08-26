@@ -1,0 +1,47 @@
+{
+    "config": {
+        "feature": {
+            "config": {
+                "feature": {
+                    "type": "minecraft:random_selector",
+                    "config": {
+                        "features": [
+                            {
+                                "feature": "nwg:trees/spruce/tall_spruce",
+                                "chance": 0.65
+                            },
+                            {
+                                "feature": "nwg:shrubs/oak_shrub",
+                                "chance": 0.05
+                            }
+                        ],
+                        "default": "nwg:shrubs/oak_shrub"
+                    }
+                },
+                "decorator": {
+                    "config": {
+                        "outer": {
+                            "config": {},
+                            "type": "minecraft:square"
+                        },
+                        "inner": {
+                            "config": {},
+                            "type": "minecraft:heightmap"
+                        }
+                    },
+                    "type": "minecraft:decorated"
+                }
+            },
+            "type": "minecraft:decorated"
+        },
+        "decorator": {
+            "config": {
+                "count": 16,
+                "extra_chance": 0.1,
+                "extra_count": 1
+            },
+            "type": "minecraft:count_extra"
+        }
+    },
+    "type": "minecraft:decorated"
+}

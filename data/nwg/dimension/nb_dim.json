@@ -1,0 +1,323 @@
+{
+  "type": "nwg:nb_dim_type",
+  "generator": {
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "seed": 0,
+      "large_biomes": false,
+      "humidity_noise": {
+        "firstOctave": -9,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "altitude_noise": {
+        "firstOctave": -9,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "weirdness_noise": {
+        "firstOctave": -5,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "temperature_noise": {
+        "firstOctave": -9,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "biomes": [
+        {
+          "parameters": {
+            "temperature": 0.4,
+            "humidity": 0.3,
+            "altitude": 0.4,
+            "weirdness": 0.11,
+            "offset": 0.0
+          },
+          "biome": "nwg:broadleaf_forest"
+        },
+        {
+          "parameters": {
+            "temperature": 0.4,
+            "humidity": 0.4,
+            "altitude": 0.4,
+            "weirdness": 0.1,
+            "offset": 0.075
+          },
+          "biome": "minecraft:river"
+        },
+        {
+          "parameters": {
+            "temperature": 0.4,
+            "humidity": 0.5,
+            "altitude": 0.4,
+            "weirdness": 0.09,
+            "offset": 0.0
+          },
+          "biome": "nwg:broadleaf_forest"
+        },
+        {
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0.3,
+            "altitude": 0.3,
+            "weirdness": 0.05,
+            "offset": 0.455
+          },
+          "biome": "nwg:beaches/sandy_beach"
+        },
+        {
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0.4,
+            "altitude": 0.25,
+            "weirdness": 0.05,
+            "offset": 0.455
+          },
+          "biome": "nwg:beaches/sandy_beach"
+        },
+        {
+          "parameters": {
+            "temperature": -0.3,
+            "humidity": 0.5,
+            "altitude": 0.5,
+            "weirdness": 0.11,
+            "offset": 0.0
+          },
+          "biome": "nwg:coniferous_forest"
+        },
+        {
+          "parameters": {
+            "temperature": -0.3,
+            "humidity": 0.55,
+            "altitude": 0.5,
+            "weirdness": 0.1,
+            "offset": 0.075
+          },
+          "biome": "minecraft:river"
+        },
+        {
+          "parameters": {
+            "temperature": -0.3,
+            "humidity": 0.6,
+            "altitude": 0.5,
+            "weirdness": 0.09,
+            "offset": 0.0
+          },
+          "biome": "nwg:coniferous_forest"
+        },
+        {
+          "parameters": {
+            "temperature": -0.2,
+            "humidity": 0.7,
+            "altitude": 0.2,
+            "weirdness": 0.05,
+            "offset": 0.52
+          },
+          "biome": "nwg:beaches/sandy_beach"
+        },
+        {
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0.5,
+            "altitude": 0.25,
+            "weirdness": 0.11,
+            "offset": 0.0
+          },
+          "biome": "nwg:grasslands"
+        },
+        {
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0.45,
+            "altitude": 0.25,
+            "weirdness": 0.1,
+            "offset": 0.075
+          },
+          "biome": "minecraft:river"
+        },
+        {
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0.4,
+            "altitude": 0.25,
+            "weirdness": 0.09,
+            "offset": 0.0
+          },
+          "biome": "nwg:grasslands"
+        },
+        {
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0.45,
+            "altitude": 0.2,
+            "weirdness": 0.05,
+            "offset": 0.455
+          },
+          "biome": "nwg:beaches/sandy_beach"
+        },
+        {
+          "parameters": {
+            "temperature": 0.45,
+            "humidity": 0.4,
+            "altitude": 0.2,
+            "weirdness": 0.05,
+            "offset": 0.455
+          },
+          "biome": "nwg:beaches/sandy_beach"
+        },
+        {
+          "parameters": {
+            "temperature": -0.6,
+            "humidity": 0.3,
+            "altitude": 0.5,
+            "weirdness": 0.09,
+            "offset": 0.1
+          },
+          "biome": "nwg:tundra_forest"
+        },
+        {
+          "parameters": {
+            "temperature": -0.6,
+            "humidity": 0.1,
+            "altitude": 0.6,
+            "weirdness": 0.49,
+            "offset": 0.0
+          },
+          "biome": "nwg:tundra_plains"
+        },
+        {
+          "parameters": {
+            "temperature": -0.6,
+            "humidity": 0.15,
+            "altitude": 0.6,
+            "weirdness": 0.1,
+            "offset": 0.075
+          },
+          "biome": "minecraft:frozen_river"
+        },
+        {
+          "parameters": {
+            "temperature": -0.6,
+            "humidity": 0.2,
+            "altitude": 0.6,
+            "weirdness": 0.41,
+            "offset": 0.0
+          },
+          "biome": "nwg:tundra_plains"
+        },
+        {
+          "parameters": {
+            "temperature": -0.6,
+            "humidity": 0.2,
+            "altitude": 0.5,
+            "weirdness": 0.11,
+            "offset": 0.1
+          },
+          "biome": "nwg:tundra_forest"
+        },
+        {
+          "parameters": {
+            "temperature": -0.3,
+            "humidity": 0.5,
+            "altitude": 0.4,
+            "weirdness": 0.05,
+            "offset": 0.515
+          },
+          "biome": "nwg:beaches/cold_sandy_beach"
+        },
+        {
+          "parameters": {
+            "temperature": 0.6,
+            "humidity": 0.7,
+            "altitude": 0.0,
+            "weirdness": 0.11,
+            "offset": 0.11
+          },
+          "biome": "nwg:swamp"
+        },
+        {
+          "parameters": {
+            "temperature": 0.55,
+            "humidity": 0.7,
+            "altitude": 0.25,
+            "weirdness": 0.11,
+            "offset": 0.08
+          },
+          "biome": "nwg:swamp_hills"
+        },
+        {
+          "parameters": {
+            "temperature": -0.3,
+            "humidity": -0.3,
+            "altitude": -0.5,
+            "weirdness": 0.1,
+            "offset": 0.0
+          },
+          "biome": "nwg:oceans/shallow_cold_ocean"
+        },
+        {
+          "parameters": {
+            "temperature": -0.3,
+            "humidity": -0.3,
+            "altitude": -1.0,
+            "weirdness": 0.1,
+            "offset": 0.0
+          },
+          "biome": "nwg:oceans/cold_ocean"
+        },
+        {
+          "parameters": {
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "altitude": -1.0,
+            "weirdness": 0.0,
+            "offset": 0.0
+          },
+          "biome": "nwg:oceans/shallow_cold_ocean"
+        },
+        {
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0.3,
+            "altitude": -0.5,
+            "weirdness": 0.1,
+            "offset": 0.0
+          },
+          "biome": "nwg:oceans/lukewarm_ocean"
+        },
+        {
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0.3,
+            "altitude": -1.0,
+            "weirdness": 0.1,
+            "offset": 0.0
+          },
+          "biome": "nwg:oceans/warm_ocean"
+        },
+        {
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0.5,
+            "altitude": -0.5,
+            "weirdness": 0.0,
+            "offset": 0.0
+          },
+          "biome": "nwg:oceans/shallow_warm_ocean"
+        }
+      ]
+    },
+    "seed": 0,
+    "settings": "nwg:nb_noise",
+    "type": "minecraft:noise"
+  }
+}

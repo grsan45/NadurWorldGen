@@ -1,0 +1,36 @@
+{
+    "config": {
+        "feature": {
+            "type": "minecraft:delta_feature",
+            "config": {
+                "contents": {
+                    "Name": "minecraft:coarse_dirt",
+                    "Properties": {
+                        "level": "0"
+                    }
+                },
+                "rim": {
+                    "Name": "minecraft:grass_block",
+                    "Properties": {
+                        "snowy": "false"
+                    }
+                },
+                "size": {
+                    "base": 1,
+                    "spread": 1
+                },
+                "rim_size": {
+                    "base": 2,
+                    "spread": 2
+                }
+            }
+        },
+        "decorator": {
+            "config": {
+                "count": 40
+            },
+            "type": "minecraft:count_multilayer"
+        }
+    },
+    "type": "minecraft:decorated"
+}
